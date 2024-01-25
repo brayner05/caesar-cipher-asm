@@ -4,3 +4,6 @@ all: caesar.o
 
 caesar.o: caesar.asm
 	as -o caesar.o caesar.asm
+
+clean:
+	rm -rf *.o
